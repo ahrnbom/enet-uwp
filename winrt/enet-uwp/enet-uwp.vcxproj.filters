@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{fa3089ae-4e2e-4248-b207-8625cdb52465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libenet">
+      <UniqueIdentifier>{e3d0780c-7edf-469f-aa4c-c1d707e3f794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libenet\include">
+      <UniqueIdentifier>{20bd0cf7-7d59-408d-88b3-6d080f43fd18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libenet\include\enet">
+      <UniqueIdentifier>{d79c8bf6-97d2-43c5-a1c6-2c3176b015d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\enet-uwp\enet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\callbacks.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\compress.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\host.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\list.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\packet.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\peer.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\protocol.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\unix.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\enet-uwp\libenet\win32.c">
+      <Filter>src\libenet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\enet-uwp\lua-enet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\unix.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\utility.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\win32.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\callbacks.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\enet.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\list.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\protocol.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\time.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\enet-uwp\libenet\include\enet\types.h">
+      <Filter>src\libenet\include\enet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
