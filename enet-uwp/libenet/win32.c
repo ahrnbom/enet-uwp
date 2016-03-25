@@ -27,7 +27,7 @@ enet_initialize (void)
        return -1;
     }
 
-    timeBeginPeriod (1);
+    //timeBeginPeriod (1);
 
     return 0;
 }
@@ -35,9 +35,15 @@ enet_initialize (void)
 void
 enet_deinitialize (void)
 {
-    timeEndPeriod (1);
+    //timeEndPeriod (1);
 
     WSACleanup ();
+}
+
+// epic hack for Windows apps
+enet_uint32 timeGetTime() {
+	ULONGLONG ticks = GetTickCount64();
+	return (enet_uint32)ticks; // Who need the high order bits anyway?
 }
 
 enet_uint32
